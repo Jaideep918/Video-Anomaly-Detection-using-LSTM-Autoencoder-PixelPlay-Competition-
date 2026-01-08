@@ -351,7 +351,7 @@ This was not a tuning problem. It was a representation limitation.
 
 The file:
 
-`notebooks/pixel-play-9.ipynb`
+`pixel-play-9.ipynb`
 
 Contains the full Kaggle pipeline:
 
