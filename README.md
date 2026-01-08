@@ -34,19 +34,18 @@ pixelplay-vad/
 │
 ├── README.md               ← This file (full explanation)
 ├── requirements.txt        ← Python dependencies
-│
-├── data/
-│   └── README.md           ← Expected dataset layout
+│         
 │
 ├── src/
+│   ├── README.md
 │   ├── dataset.py          ← Sequence construction logic
+│   ├── feature_extractor.py            
 │   ├── model.py            ← LSTM Autoencoder definition
 │   ├── train.py            ← Training loop (normal data only)
 │   ├── inference.py        ← Reconstruction error scoring
 │   └── postprocess.py     ← Smoothing + submission generation
 │
-└── notebooks/
-    └── pixel-play-9.ipynb  ← Executed Kaggle notebook used for submission
+└── pixel-play-9.ipynb  ← Executed Kaggle notebook used for submission
 ```
 
 The `src/` folder contains clean modular code. The notebook is kept only for reproducibility and proof of execution on Kaggle.
